@@ -4,6 +4,7 @@ Geoserver-SLDs
 SLDs for Geoserver
 
 **dem.sld**: classic colour scheme for elevation data.
+![http://soliton.vm.bytemark.co.uk/pub/cpt-city/td/tn/DEM_print.png.index.html](http://soliton.vm.bytemark.co.uk/pub/cpt-city/td/tn/DEM_print.png.index.html)
 
 **dem_esri.sld**: colour scheme based on the ESRI elevation palette.
 ![http://soliton.vm.bytemark.co.uk/pub/cpt-city/esri/hypsometry/eu/tn/europe_2.png.index.html](http://soliton.vm.bytemark.co.uk/pub/cpt-city/esri/hypsometry/eu/tn/europe_2.png.index.html)
