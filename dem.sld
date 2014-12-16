@@ -7,21 +7,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <UserStyle>
       <Name>dem</Name>
       <Title>Simple DEM style</Title>
-      <Abstract>Classic elevation color progression for Scottish elevations</Abstract>
+      <Abstract>Classic elevation color progression</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
-            <Opacity>1.0</Opacity>
+            <Opacity>0.8</Opacity>
             <ColorMap>
               <ColorMapEntry color="#000000" quantity="-200" label="nodata" opacity="0.0" />
-              <ColorMapEntry color="#ffffe5" quantity="0" label="values" />
-              <ColorMapEntry color="#fff7bc" quantity="200" label="values" />
-              <ColorMapEntry color="#fee391" quantity="400" label="values" />
-              <ColorMapEntry color="#fec44f" quantity="600" label="values" />
-              <ColorMapEntry color="#fe9929" quantity="800" label="values" />
-              <ColorMapEntry color="#ec7014" quantity="1000" label="values" />
-              <ColorMapEntry color="#cc4c02" quantity="1200" label="values" />
-              <ColorMapEntry color="#993404" quantity="1400" label="values" />
+              <ColorMapEntry color="#33660" quantity="0" label="values" />
+              <ColorMapEntry color="#81C31F" quantity="175" label="values" />
+              <ColorMapEntry color="#FFFFCC" quantity="350" label="values" />
+              <ColorMapEntry color="#F4BD45" quantity="700" label="values" />
+              <ColorMapEntry color="#6633C" quantity="875" label="values" />
+              <ColorMapEntry color="#66330" quantity="1050" label="values" />
+              <ColorMapEntry color="#FFFFFF" quantity="1400" label="values" />
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
