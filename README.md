@@ -1,7 +1,7 @@
 Geoserver-DEM-SLDs
 ==================
 
-SLDs for elevation dataset rendered in Geoserver.
+SLDs for elevation datasets rendered in Geoserver.  More than one style can be associated with a layer.
 
 **dem.sld**: classic colour scheme for elevation data.
 ![Classic DEM](images/dem-dem_dsm10m.jpg)
